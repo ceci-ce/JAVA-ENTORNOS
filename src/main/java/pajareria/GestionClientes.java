@@ -17,7 +17,13 @@ public class GestionClientes {
     private ArrayList<Cliente> clientes = new ArrayList<>();
     private Scanner scanner = new Scanner(System.in);
 
-    // Funcion dar de alta cliente
+    /**
+     * Este metodo solicita los datos del cliente por consola y añade un nuevo cliente a la lista.
+     * Una vez recogidos los datos, crea un nuevo objeto Cliente y lo añade a la lista.
+     *
+     * @author Cecilia
+     * @version 1.0
+     */
 
     public void altaCliente(){
         System.out.println("Nombre: ");
