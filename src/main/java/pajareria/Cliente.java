@@ -4,8 +4,9 @@ package pajareria;
  * Representa a un cliente de la pajarería.
  *
  * Atributos: nombre, DNI, teléfono y correo electrónico.
+ * Esta clase se usa como modelo para almacenar y mostrar información de los clientes.
  *
- * Esta clase sirve para registrar, buscar y gestionar clientes en el sistema.
+ * La lógica de registro, búsqueda o gestión se realiza desde clases externas como GestionClientes.
  *
  * @author Cecilia
  * @version 1.0
