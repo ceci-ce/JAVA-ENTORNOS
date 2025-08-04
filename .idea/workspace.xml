@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82eaee24-dd10-43af-9759-af0f07792703" name="Changes" comment="" />
+    <list default="true" id="82eaee24-dd10-43af-9759-af0f07792703" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pajareria/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pajareria/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pajareria/Pajaro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pajareria/Pajaro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pajareria/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pajareria/Venta.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +58,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/javadoc-entidades",
+    "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/cecil/Escritorio/Proyectos/java-entornos/src/main/java/com/pajareria",
     "project.structure.last.edited": "Modules",
