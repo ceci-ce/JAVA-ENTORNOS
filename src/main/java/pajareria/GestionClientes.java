@@ -1,5 +1,6 @@
 package pajareria;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -70,6 +71,31 @@ public class GestionClientes {
             }
         }
         return null;
+    }
+
+    /**
+     * Función que modifica el nombre, teléfono y email de un cliente.
+     * Pide el DNI por consola para buscar al cliente en la lista y actualiza sus datos con el setter.
+     */
+
+    public void modificarCliente(){
+        System.out.println("Introduce el DNI del cliente a modificar: ");
+        String dni = scanner.nextLine();
+        Cliente c = buscarClientePorDNI(dni);
+        if(c!= null){
+            System.out.println("Nuevo nombre: ");
+            String nuevoNombre = scanner.nextLine();
+            c.setNombre(nuevoNombre);
+            System.out.println("Nuevo teléfono: ");
+            String nuevoTelefono = scanner.nextLine();
+            c.setTelefono(nuevoTelefono);
+            System.out.println("Nuevo email: ");
+            String nuevoEmail = scanner.nextLine();
+            c.setEmail(nuevoEmail);
+            System.out.println("Cliente actualizado ");
+        }else{
+            System.out.println("Cliente no encontrado.");
+        }
     }
 
     /**

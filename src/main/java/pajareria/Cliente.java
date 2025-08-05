@@ -76,6 +76,7 @@ public class Cliente {
     public void mostrarInfo(){
         System.out.println("\n DNI: " + this.dni + "\n nombre: " + this.nombre);
     }
+
     @Override
     public String toString(){
         return "Cliente{" +
