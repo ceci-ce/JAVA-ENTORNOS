@@ -69,6 +69,13 @@ public class Cliente {
         return email;
     }
 
+    /**
+     * Muestra por pantalla la información básica del cliente: DNI y nombre.
+     */
+
+    public void mostrarInfo(){
+        System.out.println("\n DNI: " + this.dni + "\n nombre: " + this.nombre);
+    }
     @Override
     public String toString(){
         return "Cliente{" +

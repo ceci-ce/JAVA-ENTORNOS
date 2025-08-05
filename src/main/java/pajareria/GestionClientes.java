@@ -71,4 +71,15 @@ public class GestionClientes {
         }
         return null;
     }
+
+    /**
+     * Muestra por pantalla el listado de todos los clientes registrados.
+     * Para ello, recorre la lista de clientes y llama al método (mostrarInfo()) de cada uno.
+     */
+
+    public void listadoClientes(){
+        for (Cliente c: clientes){
+            c.mostrarInfo();
+        }
+    }
 }
