@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"pajareria","l":"Cliente"},{"p":"pajareria","l":"GestionClientes"},{"p":"pajareria","l":"Main"},{"p":"pajareria","l":"Pajaro"},{"p":"pajareria","l":"Venta"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"pajareria","l":"Cliente"},{"p":"pajareria","l":"GestionClientes"},{"p":"pajareria","l":"GestionPajaros"},{"p":"pajareria","l":"Main"},{"p":"pajareria","l":"Pajaro"},{"p":"pajareria","l":"Venta"}];updateSearchResults();

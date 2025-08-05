@@ -38,4 +38,30 @@ public class GestionPajaros {
         catalogo.add(new Pajaro(especie, color, precio));
         System.out.println("Pájaro añadido al catálogo con éxito.");
     }
+
+    /**
+     * Función que busca un pajaro en el catálogo por su especie.
+     * @param especie Especie del pájaro que se quiere buscar.
+     * @return String que devuelve la especie del pájaro, si no existe devuelve null.
+     */
+
+    public Pajaro buscarPajaroPorEspecie(String especie){
+        for(Pajaro p: catalogo){
+            if(p.getEspecie().equalsIgnoreCase(especie)){
+                return p;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Muestra por pantalla el catálogo de todos los pájaros registrados.
+     * Para ello, recorre la lista de pájaros y llama al método (mostrarInfo()) de cada uno.
+     */
+
+    public void listadoPajaros(){
+        for(Pajaro p: catalogo){
+            p.mostrarInfo();
+        }
+    }
 }
