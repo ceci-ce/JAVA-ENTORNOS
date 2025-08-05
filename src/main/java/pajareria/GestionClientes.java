@@ -38,4 +38,37 @@ public class GestionClientes {
         clientes.add(new Cliente(nombre, dni, telefono, email)); // Se crea un objeto cliente con los datos que el usuario ha escrito
         System.out.println("Cliente añadido con éxito.");
     }
+
+    /**
+     * Elimina a un cliente de la lista a partir de su DNI.
+     *
+     * Solicita al usuario el DNI del cliente a eliminar y busca al cliente en la lista mediante la función (buscarClientePorDNI)
+     */
+
+    public void bajaCliente(){
+        System.out.println("Introduce el DNI del cliente a dar de baja: ");
+        String dni = scanner.nextLine();
+        Cliente c = buscarClientePorDNI(dni);
+        if(c!=null){
+            clientes.remove(c);
+            System.out.println("Cliente" + c + " dado de baja con éxito.");
+        }else{
+            System.out.println("Cliente no encontrado.");
+        }
+    }
+
+    /**
+     * Función que busca un cliente en la lista por su DNI.
+     * @param dni DNI del cliente que se quiere buscar.
+     * @return String que devuelve el DNI del cliente, si no existe devuelve null.
+     */
+
+    public Cliente buscarClientePorDNI(String dni){
+        for(Cliente c: clientes){
+            if(c.getDni().equalsIgnoreCase(dni)){
+                return c;
+            }
+        }
+        return null;
+    }
 }
