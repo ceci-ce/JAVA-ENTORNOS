@@ -13,4 +13,48 @@ public class Pajaro {
     private String especie;
     private String color;
     private double precio;
+
+    /**
+     * Constructor de la clase pajaro.
+     * Crea un pajaro con los datos proporcionados
+     * @param especie Tipo de especio del pajaro.
+     * @param color Color del pajaro.
+     * @param precio Precio del pajaro.
+     */
+
+    public Pajaro(String especie, String color, double precio) {
+        this.especie = especie;
+        this.color = color;
+        this.precio = precio;
+    }
+
+    // Getters
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    // Setters
+
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
 }
+
+
