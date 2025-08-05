@@ -55,6 +55,23 @@ public class Pajaro {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+
+    /**
+     * Muestra por pantalla la información básica del pájaro: especie, color y precio.
+     */
+
+    public void mostrarInfo(){
+        System.out.println("\n Especie: " + this.especie + "\n color: " + this.color + "\n precio: " + this.precio);
+    }
+
+    @Override
+    public String toString(){
+        return "Pájaro{" +
+                "especie='" + especie + '\'' +
+                ", color='" + color + '\'' +
+                ", precio='" + precio + '\'' +
+                '}';
+    }
 }
 
 
